@@ -16,5 +16,6 @@ $paragphaffeCensured = str_replace($badword, '****', $paragphaffe )
 <body>
     <h2><?php echo $paragphaffe; ?> <?php echo $paragphaffeleght; ?> </h2>
     <h2><?php echo $paragphaffeCensured; ?> </h2>
+    <div>Lunghezza paragrafo censurato: <?php echo $paragphaffeCensured;?> <?php echo strlen($paragphaffeCensured); ?> </div>
 </body>
 </html>
